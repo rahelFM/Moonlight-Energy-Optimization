@@ -3,7 +3,8 @@
 # Overview
 Moonlight Energy Optimization is a data analysis project focused on exploring and cleaning solar irradiance and weather data from multiple countries (Benin, Sierra Leone, and Togo). The goal is to prepare high-quality, insightful datasets that will support energy optimization strategies in each region.
 
-This repository hosts the code, notebooks, and processes used for data profiling, cleaning, and exploratory data analysis (EDA).
+This repository hosts the code, notebooks, and processes used for data profiling, cleaning, and exploratory data analysis (EDA). 
+## The ipynb EDA  files are in another branch and not merged on main branch. 
 ## Data Description
 
 The dataset (`sierraleone-bumbuna.csv`,'benin-malanville.csv','togo-dapaong_qc.csv') contains the following columns:
@@ -33,7 +34,7 @@ The dataset (`sierraleone-bumbuna.csv`,'benin-malanville.csv','togo-dapaong_qc.c
 Successfully set up a local Git environment, created a GitHub repository, and linked the local project to the remote repository. Basic Git commands (`add`, `commit`, `push`) were used to manage the project.
 
 ## Task 2: Profiling, Cleaning & EDA Outline
-* Three ipynb files of EDA were created for the country. benin-eda, serrealeone-eda and toga-eda. 
+* Three ipynb files of EDA were created for the country. benin-eda, serrealeone-eda and toga-eda. The files are in another branch and not merged on main branch. 
 ### 2.1 Data Profiling Summary
 
 * Loaded the  datasets using the `pandas` library.
