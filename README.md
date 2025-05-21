@@ -58,15 +58,40 @@ The EDA will involved the following:
 * **Multivariate Analysis:** Exploring of relationships between multiple variables.
 * **Time Series Analysis:** Analyzing trends and seasonality in key variables over time.
 
-## Next Steps
 
-The following steps will be undertaken:
+   ## # Task 3
+## # Solar Irradiance Data Analysis
 
-* Complete the planned data cleaning steps for all three countries.
-* Perform the country comparison analysis as outlined in the EDA plan.
-* Document findings and observations in the repository (potentially in a dedicated notebook: `compare_countries.ipynb`).
-* (Bonus) Develop a Streamlit application to visualize the insights.
-* Prepare for subsequent tasks in the challenge.
+The project compare_countries.ipynb, analyzes solar irradiance data for three West African countries: **Benin**, **Togo**, and **Sierra Leone**. The goal is to compare and evaluate solar energy potential using key irradiance metrics:
+
+- **GHI**: Global Horizontal Irradiance  
+- **DNI**: Direct Normal Irradiance  
+- **DHI**: Diffuse Horizontal Irradiance
+
+## 📁 Project Structure
+We compute:
+
+Mean, median, and standard deviation for each irradiance metric
+
+One-Way ANOVA and Kruskal-Wallis tests to assess country-level differences
+
+Example Output:
+Country	GHI_mean	DNI_mean	DHI_mean
+Togo	230.56	151.26	116.44
+Benin	240.56	167.19	115.36
+Sierra Leone	139.54	67.17	93.90
+
+ANOVA and Kruskal-Wallis p-values:
+
+GHI differences between countries are statistically significant (p-value = 0.0).
+
+📌 Key Insights
+Togo shows the highest DHI and DNI values.
+
+Benin has the highest GHI on average.
+
+Sierra Leone consistently shows lower irradiance across all metrics.
+
 
 ## Libraries Used
 
